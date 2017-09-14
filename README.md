@@ -6,7 +6,9 @@ Script uses google text-to-speech engine to generate voice, and ffmpeg for conve
 
 ## Requirements
 Install google text-to-speech library via python pip:
-```pip install gTTS```
+```
+pip install gTTS
+```
 (You will need pip manager installed. If you don't have it, find it here: https://pip.pypa.io/en/stable/installing/)
 
 Install `ffmpeg` via any way suitable for your operation system.
