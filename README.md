@@ -16,6 +16,6 @@ Install `ffmpeg` via any way suitable for your operation system.
 Ensure you have bash enterpreter.
 
 ## Using
-Edit voice messages in `voice_list.txt`.
-Run `voice.sh`.
-Copy resulting .wav files from your folder to corresponding folders of your transmitter SD card.
+* Edit voice messages in `voice_list.txt`.
+* Run `voice.sh`.
+* Copy resulting .wav files from your folder to corresponding folders of your transmitter SD card.
