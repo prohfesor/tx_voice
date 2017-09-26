@@ -19,3 +19,21 @@ Ensure you have bash enterpreter.
 * Edit voice messages in `voice_list.txt`.
 * Run `voice.sh`.
 * Copy resulting .wav files from your folder to corresponding folders of your transmitter SD card.
+
+## Settings
+```
+LANG=en
+```
+Language for text-to-speach engine. You can see example list here: https://pypi.python.org/pypi/gTTS
+```
+PLAY_SOUND=false
+```
+Play voice file after generation. Need `mpg123`.
+```
+LOWERCASE=false
+```
+Convert file names to lower case.
+```
+TRUNCATE_LONG=true
+```
+Truncate file names to match 8.3 format. Script will first try to remove whitespaces from filename (underscores), if name still don't fit 8 chars long, then it is truncated.
